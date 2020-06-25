@@ -27,7 +27,7 @@
         android:id="@+id/edtCelsius"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned"
         android:layout_marginTop="20dp"
         android:maxLength="5"
         android:textSize="24dp"/>
@@ -38,7 +38,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Converter"
-        android:textSize="24dp"/>
+        android:textSize="24dp"
+        android:background="@color/colorAccent"/>
 
     <TextView
         android:id="@+id/tvMensagem"
@@ -47,7 +48,7 @@
         android:layout_marginTop="100dp"
         android:text="Mensagens"
         android:textSize="24dp"
-        android:textColor="@color/colorAccent"/>
+        android:textColor="#FF0000"/>
 
 
 </LinearLayout>
