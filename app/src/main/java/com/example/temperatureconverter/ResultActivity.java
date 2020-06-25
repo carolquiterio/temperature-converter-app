@@ -30,7 +30,7 @@ public class ResultActivity extends AppCompatActivity {
         tvKelvinResult = (TextView)findViewById(R.id.tvKelvinResult);
 
         double varKelvin = celsius + 273.15;
-        double varFahreheint = (celsius + 1.8) + 32;
+        double varFahreheint = (celsius * 9/5) + 32;
 
         tvFahreheintResult.setText(varFahreheint + "");
         tvKelvinResult.setText(varKelvin + "");
