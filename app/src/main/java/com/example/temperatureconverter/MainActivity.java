@@ -8,6 +8,7 @@ package com.example.temperatureconverter;
         import android.widget.EditText;
         import android.widget.TextView;
         import android.widget.Button;
+        import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
                 if (edtCelsius.getText().toString().equals(""))
                 {
                     tvMensagem.setText("Escreva um número para continuar!");
+
+                 // Toast.makeText(this, "Escreva um número válido", Toast.LENGTH_LONG).show();
                 }
                 else {
                     tvMensagem.setText("");
