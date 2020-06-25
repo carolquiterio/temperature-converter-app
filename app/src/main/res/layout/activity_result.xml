@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado da conversão"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fahreheint: "
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/tvFahreheintResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24dp"
+        android:text="Kelvin: "/>
+
+    <TextView
+        android:id="@+id/tvKelvinResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24dp"/>
+
+
+</LinearLayout>
